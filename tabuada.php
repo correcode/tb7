@@ -1,5 +1,11 @@
 <?php
 
-for ($i = 1; $i<=10; $i++){
-    echo "7 x $i = " .(7 * $i). "\n";
+echo "Digite um numero de 1 a 10: \n";
+
+$valor = trim(fgets(STDIN));
+
+for ($i = 1; $i <= 10; $i++){
+    echo "$valor x $i = " . ($valor * $i) . "\n";
 }
+
+?>
